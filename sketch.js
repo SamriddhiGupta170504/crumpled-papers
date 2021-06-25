@@ -25,8 +25,8 @@ function setup(){
     ball = Bodies.circle(200,100,20, ball_options);
     World.add(world,ball);
 
-    box1= new Box(300,300,20,100);
-    box2=new Box(350,300,20,100)
+    box1= new Box(300,380,20,100);
+    box2=new Box(390,380,20,100)
 
     console.log(ground);
 }
